@@ -4,8 +4,8 @@ import os
 
 # 1. Define file paths
 # Update this filename to match the exact name of the historical CSV you just downloaded
-RAW_FILE = "data/raw/kathmandu_pm25_hours_20261114_20261121.csv"
-PROCESSED_FILE = "data/processed/kathmandu_pm25_hours_20261114_20261121_clean.csv"
+RAW_FILE = "data/raw/kathmandu_pm25_days_20211124_20261123.csv"
+PROCESSED_FILE = "data/processed/kathmandu_pm25_days_20211124_20261123_clean.csv"
 
 # Ensure the processed directory exists
 os.makedirs("data/processed", exist_ok=True)

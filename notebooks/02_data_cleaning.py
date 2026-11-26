@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # 1. Define file paths
-RAW_FILE = "data/raw/kathmandu_pm25_raw.csv"
+RAW_FILE = "data/raw/kathmandu_pm25_raw.csv" 
 PROCESSED_FILE = "data/processed/kathmandu_pm25_clean.csv"
 
 # Ensure the processed directory exists

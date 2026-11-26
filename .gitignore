@@ -10,3 +10,7 @@ venv/
 # Python cache
 __pycache__/
 *.pyc
+
+.env
+data/processed/kathmandu_pm25_days_20211124_20261123_clean.csv
+data/raw/kathmandu_pm25_days_20211124_20261123.csv

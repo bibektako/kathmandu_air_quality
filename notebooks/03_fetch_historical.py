@@ -20,8 +20,8 @@ KATHMANDU_BBOX = "85.20,27.55,85.60,27.85"   # min_lon, min_lat, max_lon, max_la
 PM25_PARAMETER_ID = 2
 
 # User settings: change these to control what is downloaded
-DAYS_BACK = 7            # 7 = one week, 365 = one year, 1825 = five years
-INTERVAL = "hours"       # "measurements", "hours", or "days"
+DAYS_BACK = 1825            # 7 = one week, 365 = one year, 1825 = five years
+INTERVAL = "days"       # "measurements", "hours", or "days"
 PAGE_LIMIT = 1000        # maximum rows per request allowed by the API
 PAUSE_SECONDS = 1.1      # delay between requests to respect rate limits
 OUTPUT_DIR = "data/raw"
